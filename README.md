@@ -26,4 +26,4 @@ $ pkexec ./calamares -d
 ```
 
 **NOTE**: rji is not yet functional, which means it won't install anything, so it's relatively safe to test, but you still might encouter bugs.
-Oh, and also rji needs certain build dependencies, but because this repo is a one time thing I'm to put them here ;)
+Oh, and also rji needs certain build dependencies, but because this repo is a one time thing I'm too lazy to put them here ;)
