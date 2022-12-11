@@ -25,5 +25,7 @@ $ sudo ./calamares -d
 $ pkexec ./calamares -d
 ```
 
-**NOTE**: rji is not yet functional, which means it won't install anything, so it's relatively safe to test, but you still might encouter bugs.
-Oh, and also rji needs certain build dependencies, but because this repo is a one time thing I'm too lazy to put them here ;)
+**NOTE**: rji is not a real project and it's not functional, which means it won't install anything, so it's relatively safe to test, but you still might encouter bugs.
+Oh, and also rji needs certain build dependencies, but because this repo is a one time thing (I'm expecting to delete it soon), I'm too lazy to put them here ;)
+
+![Joel Spinning](https://c.tenor.com/ZHze27YyLIkAAAAC/joel-spinning.gif)
