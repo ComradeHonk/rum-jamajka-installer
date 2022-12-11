@@ -4,11 +4,17 @@ A Linux systems installer built for a future distribution: RumJamajkaOS
 # Building
 Clone rum-jamajka-installer from GitHub, run CMake, and compile it:
 ```
-$ git clone https://github.com/calamares/calamares.git
-$ mkdir calamares/build
-$ cd calamares/build
+$ git clone https://github.com/ComradeHonk/rum-jamajka-installer.git
+$ mkdir rum-jamajka-installer/build
+$ cd rum-jamajka-installer/build
 $ cmake -DCMAKE_BUILD_TYPE=Debug ..
 $ make
+```
+
+Copy `settings.conf`
+into the build-directory:
+```
+$ cp ../settings.conf .
 ```
 
 Run it straight from the `build` directory in
@@ -19,8 +25,4 @@ $ sudo ./calamares -d
 $ pkexec ./calamares -d
 ```
 
-Copy `settings.conf`
-into the build-directory:
-```
-$ cp ../settings.conf .
-```
+**NOTE**: rji is not yet functional, which means it won't install anything, so it's relatively safe to test, but you still might encouter bugs.
